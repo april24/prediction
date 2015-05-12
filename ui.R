@@ -14,7 +14,7 @@ shinyUI(pageWithSidebar(
         h3('Find best model using Linear Regression Model'),
         h4('change intercept and slope to find the best model which make mse smallest'),
         plotOutput('newHist'),
-        h3('Results of prediction with best model when intercept=23.94,slope=0.646'),
+        h3('Results of prediction with best model  (intercept=23.94,slope=0.646)'),
         #prediciton part
         h4("The parent's heght you entered"),
         verbatimTextOutput("inputValue"),
